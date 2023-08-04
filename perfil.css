@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: #5E8BC8;
+  background-color: #8DBAF6;
   color: white;
   font-family: 'Inter', sans-serif;
   font-size: 100%;
@@ -40,7 +40,7 @@ body {
 }
 
 .cabecalho-menu-item:hover {
-    color: #FFEAA0;
+    color: #FFD647;
 }
 
 .rodape {
@@ -132,7 +132,7 @@ input[type="text"],input[type="email"],input[type="password"]  {
 .login{/*button login style*/
     padding: 10px;
     margin-top: 16px;
-    background: #5E8BC8;
+    background: #8DBAF6;
     color: #fff;
     width: 103px;
     border-radius: 6px;
@@ -142,14 +142,14 @@ input[type="text"],input[type="email"],input[type="password"]  {
     outline: none;
 }
 .signup {/*button signup style*/
-  background:#5E8BC8;
+  background:#8DBAF6;
   border: 1px solid #435688;
 }
 
 
 .log-sign .signup>a{color: #fff;text-decoration: none;}/*the signup link style*/
 .log-sign button:hover{
-  background: #FFEAA0;
+  background: #FFD647;
    border:1px solid #435688;
    color: #fff;
 }
@@ -197,7 +197,7 @@ input[type="text"],input[type="email"],input[type="password"]  {
 /************/
 
 .forget-password {text-align: center;}
-.forget-password a {color: #FFEAA0;transition: 0.3s;text-decoration:underline;}
+.forget-password a {color: #FFD647;transition: 0.3s;text-decoration:underline;}
 .forget-password a:hover{color: #fff}
 .forget-password a:active{color: #fff}
 
