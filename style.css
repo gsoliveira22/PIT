@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #5E8BC8;
+    background-color: #8DBAF6;
     color: white;
     font-family: 'Inter', sans-serif;
     font-size: 100%;
@@ -18,6 +18,8 @@ body {
     align-items: center;
     justify-content: space-around;
     padding-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: 0.4px solid #FFF2E7;
 }
 
 .cabecalho-img {
@@ -35,40 +37,64 @@ body {
 }
 
 .cabecalho-menu-item:hover {
-    color: #FFEAA0;
+    color: #FFD647;
 }
 
 .conteudo {
     margin-top: 20px;
-    margin-bottom: 20px;
-    border-top: 0.4px solid #FFF2E7;
 }
 
 .conteudo-principal {
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 20px;
 }
 
-.conteudo-imagem {
-    width: 350px;
-    height: 350px;
+.conteudo-texto {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.conteudo-principal-titulo,
+.conteudo-principal-subtitulo {
+    text-align: left;
+}
+
+.conteudo-principal-titulo {
+    font-size: 36px;
+}
+
+.conteudo-principal-subtitulo {
+    font-size: 24px;
+}
+
+.conteudo-principal-titulo,
+.conteudo-principal-subtitulo {
+    text-align: left;
+}
+
+.conteudo-img {
+    width: 100%;
+    height: 100%;
+    align-items: center;
 }
 
 .conteudo-principal-botao {
     background-color: #FFDC62;
     font-family: 'Inter', sans-serif;
-    width: 230px;
-    height: 90px;
+    width: 140px;
+    height: 60px;
     border-radius: 15px;
     border: none;
     box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.15);
     font-size: 17px;
+    margin-top: 20px;
 }
 
 .conteudo-principal-botao:hover {
-    background-color: #FFEAA0;
+    background-color: #FFD647;
 }
 
 .conteudo-secundario {
@@ -88,6 +114,7 @@ body {
 .rodape {
     padding: 32px;
     border-top: 0.4px solid #FFF2E7;
+    padding-top: 20px;
 }
 
 .rodape-img {
