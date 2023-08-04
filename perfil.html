@@ -17,8 +17,7 @@
     <header class="cabecalho">
         <a href="index.html"><img class="cabecalho-img" src="logo_svg.svg" alt="Logo EatBy"></a>
         <nav class="cabecalho-menu">
-            <a href="index.html" class="cabecalho-menu-item">Home</a>
-            <a href="sobre.html" class="cabecalho-menu-item">Sobre nós</a>
+            <a href="index.html" class="cabecalho-menu-item">Início</a>
             <a href="suporte.html" class="cabecalho-menu-item">Suporte</a>
             <a href="perfil.html" class="cabecalho-menu-item"><img src="profile.svg" height="20px"></a>
         </nav>
@@ -52,7 +51,8 @@
             </div>
 
             <div class="log-sign"><!--the login button and the sign up button>[to the sign up page]-->
-                <button class="login" form="loginform"><i class="fa fa-mail-forward (alias)"></i>Login</button><!--log in-->
+                <button class="login" form="loginform"><i
+                        class="fa fa-mail-forward (alias)"></i>Login</button><!--log in-->
 
                 <a href="#" target="_blank"><!--the link to the sign up page-->
                     <button class="signup" form="signupform"><i class="fa fa-plus"></i>Cadastre-se</button>
@@ -80,24 +80,24 @@
         <img class="rodape-img" src="logo_bg.png">
     </footer>
     <script>
-        
-//this function to applay your animate style
-function animate_Me(target, moveMe){
-  $(target).focus(function(){
-	  $(moveMe).animate({"marginLeft":"266px"});
-	});
-  $(target).focusout(function(){
-    $(moveMe).animate({"marginLeft":"24px"});
-  });
 
-}
-//--------------------
+        //this function to applay your animate style
+        function animate_Me(target, moveMe) {
+            $(target).focus(function () {
+                $(moveMe).animate({ "marginLeft": "266px" });
+            });
+            $(target).focusout(function () {
+                $(moveMe).animate({ "marginLeft": "24px" });
+            });
 
-animate_Me("input[type='text']", ".fa-user");
-animate_Me("input[placeholder='Your Last Name']", ".fa-user-plus");
-animate_Me("input[type='email']", ".fa-envelope");
-animate_Me("input[type='password']", ".fa-lock");
-animate_Me("input[placeholder='Confirm Password']", ".fa-refresh");
+        }
+        //--------------------
+
+        animate_Me("input[type='text']", ".fa-user");
+        animate_Me("input[placeholder='Your Last Name']", ".fa-user-plus");
+        animate_Me("input[type='email']", ".fa-envelope");
+        animate_Me("input[type='password']", ".fa-lock");
+        animate_Me("input[placeholder='Confirm Password']", ".fa-refresh");
 
 
     </script>
