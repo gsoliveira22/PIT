@@ -27,12 +27,13 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    padding-top: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
     border-bottom: 0.4px solid #FFF2E7;
 }
 
 .cabecalho-img {
-    height: 60px;
+    height: 40px;
 }
 
 .cabecalho-menu {
