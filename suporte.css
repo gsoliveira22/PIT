@@ -51,12 +51,12 @@ body {
 }
 
 .rodape {
-    padding: 32px;
+    padding: 20px;
     border-top: 0.4px solid #FFF2E7;
 }
 
 .rodape-img {
-    height: 50px;
+    height: 40px;
     display: block;
     margin: 0 auto;
 }
