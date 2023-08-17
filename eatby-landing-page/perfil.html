@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EatBy.</title>
+    <meta name="description" content="Teste">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="perfil.css">
+    <link rel="icon" type="image/svg" href="logo_svg.svg"/>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <a href="index.html"><img class="cabecalho-img" src="logo_svg.svg" alt="Logo EatBy"></a>
+        <nav class="cabecalho-menu">
+            <a href="index.html" class="cabecalho-menu-item">Início</a>
+            <a href="suporte.html" class="cabecalho-menu-item">Suporte</a>
+            <a href="perfil.html" class="cabecalho-menu-item"><img src="profile.svg" height="20px"></a>
+        </nav>
+    </header>
+
+    <main>
+
+        <div id='AppendHere'></div>
+        <!--start login form-->
+        <form id="loginform" action="#"><!--action="the site link"-->
+            <!--start header-->
+            <h1>LOGIN</h1>
+            <p><a href="#" target="_blank">EatBy</a></p>
+            <!--site link-->
+            <!--end site-->
+
+            <div class="input-info">
+                <!--the input div containe the information of the user-->
+                <i class="fa fa-user"></i>
+                <!-- user name -->
+                <!-- <input type="text" placeholder="Nome de usuário">
+                <i class="fa fa-envelope"></i> -->
+                <!--user email-->
+                <input type="email" placeholder="E-mail" required autocomplete="off" validate>
+                <i class="fa fa-lock"></i>
+                <!--yser password-->
+                <input type="password" placeholder="Senha">
+                <!--the checkbox to make the browser remember the user-->
+                <input type="checkbox">
+                <span>Lembrar-me</span><br>
+            </div>
+
+            <div class="log-sign"><!--the login button and the sign up button>[to the sign up page]-->
+                <button class="login" form="loginform"><i
+                        class="fa fa-mail-forward (alias)"></i>Login</button><!--log in-->
+
+                <a href="#" target="_blank"><!--the link to the sign up page-->
+                    <button class="signup" form="signupform"><i class="fa fa-plus"></i>Cadastre-se</button>
+                </a>
+            </div><!--end of the log-sign-->
+
+            <div class="social-media"><!--sign up by fb and tw-->
+                <button class="btn1">
+                    <a href="#" target="_blank"><i class="fa fa-facebook"></i>Login com Facebook</a>
+                </button>
+
+                <button class="btn2">
+                    <a href="#" target="_blank"><i class="fa fa-twitter"></i>Login com o Google</a>
+                </button>
+            </div>
+
+            <p class="forget-password"><a href="#">Esqueci a senha</a></p>
+
+        </form>
+        <!--End login form-->
+
+    </main>
+
+    <footer class="rodape">
+        <img class="rodape-img" src="logo_bg.png">
+    </footer>
+    <script>
+
+        //this function to applay your animate style
+        function animate_Me(target, moveMe) {
+            $(target).focus(function () {
+                $(moveMe).animate({ "marginLeft": "266px" });
+            });
+            $(target).focusout(function () {
+                $(moveMe).animate({ "marginLeft": "24px" });
+            });
+
+        }
+        //--------------------
+
+        animate_Me("input[type='text']", ".fa-user");
+        animate_Me("input[placeholder='Your Last Name']", ".fa-user-plus");
+        animate_Me("input[type='email']", ".fa-envelope");
+        animate_Me("input[type='password']", ".fa-lock");
+        animate_Me("input[placeholder='Confirm Password']", ".fa-refresh");
+
+
+    </script>
+</body>
+
+</html>
