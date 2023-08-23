@@ -93,6 +93,17 @@ body {
     margin-top: 20px;
 }
 
+.botao-form {
+    background-color: #FFDC62;
+    font-family: 'Inter', sans-serif;
+    width: 140px;
+    height: 60px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.15);
+    font-size: 17px;
+    padding: 15px;
+} 
 .conteudo-principal-botao:hover {
     background-color: #FFD647;
 }
