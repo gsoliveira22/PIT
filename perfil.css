@@ -45,7 +45,7 @@ body {
 }
 
 .rodape {
-    padding: 20px;
+    padding: 32px;
     border-top: 0.4px solid #FFF2E7;
 }
 
@@ -106,7 +106,6 @@ input[type="text"],input[type="email"],input[type="password"]  {
     display: block;
 }
 
-.input-info input:hover{background: #ffffff}
 .input-info input[type="checkbox"] {margin-left: 17px;cursor: pointer;margin-top: 7px}
 .input-info span {color: #ffffff;font-size: 11px;}
 .input-info span>a{color:#1da1f2 }
