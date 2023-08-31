@@ -94,6 +94,7 @@ body {
 }
 
 .botao-form {
+    color: black;
     background-color: #FFDC62;
     font-family: 'Inter', sans-serif;
     width: 140px;
